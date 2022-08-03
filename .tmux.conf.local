@@ -407,6 +407,9 @@ set -g @plugin 'tmux-plugins/tmux-continuum'
 
 setenv EDITOR "nvim"
 
+# set shell
+set -g default-shell /bin/zsh
+
 # -- custom variables ----------------------------------------------------------
 
 # to define a custom #{foo} variable, define a POSIX shell function between the
