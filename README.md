@@ -37,6 +37,14 @@ $ cp /path/to/oh-my-tmux/.tmux.conf.local ~/.tmux.conf.local
 
 Then proceed to [customize] your `~/.tmux.conf.local` copy.
 
+After customization, if you want to sync this to your fork:
+```
+$ cp ~/.tmux.conf.local /path/to/oh-my-tmux/.tmux.conf.local
+$ git remote set-url origin <path to your fork>
+$ git push origin master
+```
+NOTE: you may need to install and configure GCM
+
 [customize]: #configuration
 
 If you're a Vim user, setting the `$EDITOR` environment variable to `vim` will
