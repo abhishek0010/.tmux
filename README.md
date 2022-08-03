@@ -45,6 +45,9 @@ $ git push origin master
 ```
 NOTE: you may need to install and configure GCM
 
+My changes to tmux.conf.local can be found under recent commits
+Forked repo must be checked regularly to upstream to latest changes without breaking the previous one.
+
 [customize]: #configuration
 
 If you're a Vim user, setting the `$EDITOR` environment variable to `vim` will
